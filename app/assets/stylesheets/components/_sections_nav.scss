@@ -1,3 +1,21 @@
+.sections {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 1px solid $light-gray;
+}
+
 .sections-nav {
   display: flex;
+}
+
+.sections-nav li {
+  display: flex;
+  padding: 10px;
+}
+
+.sections-nav li:hover {
+  background-color: $light-gray;
+  cursor: pointer;
+  text-decoration: underline;
 }
