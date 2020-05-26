@@ -4,6 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	border-top: 1px solid $light-gray;
 }
 
 .language-nav {
@@ -25,6 +26,14 @@
 	color: $dark-gray;
 }
 
+.language-nav a:hover {
+	text-decoration: underline;
+}
+
+// .language-nav a:checked {
+// 	font-weight: bold;
+// }
+
 .language-nav ul {
 	display: flex;
 }
@@ -45,7 +54,23 @@
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+	padding-right: 10px;
 }
+
+.masthead-links li:last-of-type {
+	border-right: none;
+}
+
+
+
+.masthead-links li p:hover {
+	background-color: $light-gray;
+}
+
+.masthead-links li a:hover {
+	text-decoration: underline;
+}
+
 
 .masthead-links button {
 	background: none;
@@ -60,7 +85,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
