@@ -6,12 +6,12 @@ html {
 }
 
 body {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	font-family: $serif;
 	font-size: 12px;
-	min-width: 900px;
-	max-width: 970px;
+	// min-width: 600px;
+	max-width: 1500px;
 }
 
 button {
@@ -37,6 +37,23 @@ button:hover {
 	display: none;
 }
 
+.thumbnail {
+	height: 80px;
+	margin: 5px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover
+}
+
+.byline {
+  color: $gray;
+  font-weight: $heavy;
+  padding: 5px;
+}
+
 /*
 	Header Rules
 */
@@ -45,6 +62,7 @@ hr {
 	border: 0;
 	height: 1px;
 	background-color: $light-gray;
+	width: 50%
 }
 
 .hr-top, .hr-bottom {
