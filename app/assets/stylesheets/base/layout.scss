@@ -10,8 +10,7 @@ body {
 	margin: 0 auto;
 	font-family: $serif;
 	font-size: 12px;
-	// min-width: 600px;
-	max-width: 1500px;
+	max-width: 1400px;
 }
 
 button {
@@ -45,7 +44,7 @@ button:hover {
 img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover
+	object-fit: cover;
 }
 
 .byline {
@@ -53,6 +52,11 @@ img {
   font-weight: $heavy;
   padding: 5px;
 }
+
+.expand {
+  opacity: 1;
+}
+
 
 /*
 	Header Rules
@@ -62,7 +66,7 @@ hr {
 	border: 0;
 	height: 1px;
 	background-color: $light-gray;
-	width: 50%
+	width: 50%;
 }
 
 .hr-top, .hr-bottom {
@@ -73,4 +77,16 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+@media all and (max-width: 1000px) {
+
+	body {
+		width: 85%;
+	}
+
+	iframe {
+		width: 80%;
+	}
+
 }
