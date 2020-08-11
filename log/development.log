@@ -8675,3 +8675,61 @@ Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac0
 Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for 127.0.0.1 at 2020-05-27 19:14:27 -0600
 Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-05-27 19:14:27 -0600
 Started GET "/assets/new_office.jpg" for 127.0.0.1 at 2020-05-27 19:14:27 -0600
+Started GET "/" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /home/strood/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.4ms)
+  Rendered shared/_main_nav.html.erb (1.9ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.2ms)
+  Rendered shared/_main_content.html.erb (6.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.7ms)
+  Rendered shared/_sections_sidebar.html.erb (0.3ms)
+Completed 200 OK in 192ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/application.self-6fa58cd2d0c7bb3d6cbbee4b68e4ea3a04bdcf9248b0b7468def49fa6285b288.css?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/components/dropdown.self-815016af6fab1d5b72abd319213bf62f0c42bab2c585d2e059543ae704a0d74c.js?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/new_office.jpg" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-08-11 16:08:40 -0600
+Started GET "/?authenticity-token=6%2BjvWH578mr7iaX5SOPBU6mvxge2DtnYXvIx8Eyu3KzbO3PCZJYcXVve%2FjyV%2BEK%2BrsH0AOHILS7mvN5PcwyI0w%3D%3D&signup%5Bemail%5D=&submit=" for 127.0.0.1 at 2020-08-11 16:08:52 -0600
+Processing by StaticPagesController#index as HTML
+  Parameters: {"authenticity-token"=>"6+jvWH578mr7iaX5SOPBU6mvxge2DtnYXvIx8Eyu3KzbO3PCZJYcXVve/jyV+EK+rsH0AOHILS7mvN5PcwyI0w==", "signup"=>{"email"=>""}, "submit"=>""}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (0.7ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.1ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (4.2ms)
+  Rendered shared/_sections_sidebar.html.erb (0.3ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-08-11 16:08:52 -0600
+Started GET "/assets/new_office.jpg" for 127.0.0.1 at 2020-08-11 16:08:52 -0600
+Started GET "/?authenticity-token=0uf67iCkgRQYxl63EofxuUj8FVLRrR2N%2BUwRo1sU19DiNGZ0OklvI7iRBXLPnHJUT5InVYZr6XtBAv4cZLaDrw%3D%3D&signup%5Bemail%5D=&submit=" for 127.0.0.1 at 2020-08-11 16:08:54 -0600
+Processing by StaticPagesController#index as HTML
+  Parameters: {"authenticity-token"=>"0uf67iCkgRQYxl63EofxuUj8FVLRrR2N+UwRo1sU19DiNGZ0OklvI7iRBXLPnHJUT5InVYZr6XtBAv4cZLaDrw==", "signup"=>{"email"=>""}, "submit"=>""}
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (1.4ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (1.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (9.7ms)
+  Rendered shared/_sections_sidebar.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/new_office.jpg" for 127.0.0.1 at 2020-08-11 16:08:54 -0600
+Started GET "/assets/AA_Times_Logo.png" for 127.0.0.1 at 2020-08-11 16:08:54 -0600
